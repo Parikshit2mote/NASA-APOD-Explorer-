@@ -1,6 +1,6 @@
 # NASA APOD Explorer
 
-A full-stack application to explore NASA's Astronomy Picture of the Day
+A full-stack application to explore NASA's Astronomy Picture of the Day.
 
 ## Features
 
