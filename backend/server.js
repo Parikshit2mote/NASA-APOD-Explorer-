@@ -31,7 +31,7 @@ async function fetchFromNasa(params = {}) {
   return response.json();
 }
 
-// GET /api/apod/range?start=YYYY-MM-DD&end=YYYY-MM-DD - APOD range (must be before :date)
+// GET /api/apod/range?start=YYYY-MM-DD&end=YYYY-MM-DD - APOD range (must be before :date);
 app.get("/api/apod/range", async (req, res) => {
   try {
     const { start, end } = req.query;
