@@ -59,3 +59,4 @@ Runs on http://localhost:5173
 | `NASA_API_KEY` | DEMO_KEY | NASA API key (get one at https://api.nasa.gov) |
 | `PORT` | 3001 | Backend server port |
 
+## ScreenShots
