@@ -28,7 +28,6 @@ async function fetchFromNasa(params = {}) {
   if (!response.ok) {
     throw new Error(`NASA API error: ${response.status}`);
   }
-
   return response.json();
 }
 
