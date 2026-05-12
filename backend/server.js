@@ -29,7 +29,7 @@ async function fetchFromNasa(params = {}) {
     throw new Error(`NASA API error: ${response.status}`);
   }
   return response.json();
-  //new ons
+  //new on
 }
 
 // GET /api/apod/range?start=YYYY-MM-DD&end=YYYY-MM-DD - APOD range (must be before :date);
