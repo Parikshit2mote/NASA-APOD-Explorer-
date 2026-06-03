@@ -12,7 +12,7 @@ function App() {
   const [error, setError] = useState(null);
   const [modalApod, setModalApod] = useState(null);
 
-  // Fetch today's APOd
+  // Fetch today's APO
   useEffect(() => {
     if (view === "today") {
       setLoading(true);
