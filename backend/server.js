@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 const NASA_API_KEY = process.env.NASA_API_KEY || "DEMO_KEY";
 const NASA_APOD_URL = "https://api.nasa.gov/planetary/apod";
 
-// Cache with 1 hour TTL and max 100 entries
+// Cache with 1 hour TTL and max 100 entrie
 const cache = new NodeCache({ stdTTL: 3600, maxKeys: 100, checkperiod: 120 });
 
 app.use(cors());
